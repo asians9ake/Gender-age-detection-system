@@ -1,7 +1,10 @@
 
 import numpy as np
 import pandas as pd
-
+import cv2
+import os
+import matplotlib.pyplot as plt
+import seaborn as sns
 import os
 for dirname, _, filenames in os.walk('/kaggle/input'):
     for filename in filenames:
@@ -10,11 +13,6 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 """Importing Modules"""
 
 # Commented out IPython magic to ensure Python compatibility.
-import pandas as pd
-import numpy as np
-import os
-import matplotlib.pyplot as plt
-import seaborn as sns
 import warnings
 from tqdm.notebook import tqdm
 warnings.filterwarnings('ignore')
